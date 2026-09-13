@@ -1,0 +1,36 @@
+# 密钥与个人配置（只保留 .env.example / profile.example.yaml 进仓库）
+.env
+config/profile.yaml
+.streamlit_path.tmp
+
+# 打包产物
+dist/
+build/
+installer_output/
+*.spec
+
+# 运行环境
+.venv
+venv
+__pycache__/
+*.pyc
+*.pyo
+.streamlit/secrets.toml
+.pytest_cache/
+
+# 用户数据
+data/*
+!data/.gitkeep
+data_old/
+drafts/*.json
+logs/*
+!logs/.gitkeep
+attachments/*
+!attachments/.gitkeep
+!attachments/请把附件放这里.txt
+license.key
+
+Template/template.local*
+
+.idea/
+.vscode/
