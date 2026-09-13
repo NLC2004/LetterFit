@@ -1,0 +1,14 @@
+fetch:
+  timeout_seconds: 25
+  max_bytes: 2000000
+  delay_seconds: 1.5
+  max_page_chars: 24000
+  max_homepage_chars: 8000
+  max_enrich_per_run: 30
+  verify_ssl: true
+
+send:
+  max_per_day: 10000
+  interval_seconds: 120
+  bulk_interval_seconds: 60
+  require_confirm: true

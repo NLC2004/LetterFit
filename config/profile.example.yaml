@@ -1,0 +1,29 @@
+# 复制本文件为 profile.yaml 后填写；也可以直接在程序的「配置向导」里填。
+
+name: 张三
+email: zhangsan@example.edu.cn
+school: 某某大学
+college: 某某学院
+major: 计算机科学与技术
+grade: 2027届本科生
+gpa: ""
+rank: 专业排名前10%
+
+subject: ""
+
+interests:
+  - 机器学习
+  - 计算机视觉
+
+experiences:
+  - org: 某某大学某某实验室
+    keywords: 目标检测、视频理解
+    detail: 参与某某课题，负责某某模块，取得了某某结果。
+  - org: 某某开源项目
+    keywords: 大模型微调、RAG
+    detail: 参与某某项目，负责某某工作。
+
+awards:
+  - 某某奖学金
+
+closing: 如果您近期有接收推免研究生的计划，恳请您考虑我的申请。
